@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hiklar1.github.io/oman-retreat-booking/sitemap.xml

@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f2e9">
+    <meta name="description" content="استكشف نماذج تجريبية لاستراحات عُمان حسب الولاية والميزانية وعدد الضيوف. هذا موقع عرض فقط ولا يرسل أو يؤكد أي حجز.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_OM">
+    <meta property="og:title" content="مَرافئ عُمان — استراحات ونماذج إقامة">
+    <meta property="og:description" content="واجهة تجريبية لاستكشاف استراحات في عُمان. لا توجد حجوزات فعلية أو تأكيدات إقامة.">
+    <meta property="og:url" content="https://hiklar1.github.io/oman-retreat-booking/">
+    <meta property="og:image" content="https://hiklar1.github.io/oman-retreat-booking/assets/hero-oman.svg">
+    <link rel="canonical" href="https://hiklar1.github.io/oman-retreat-booking/">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>مَرافئ عُمان — استراحات ونماذج إقامة</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#listings">انتقل إلى النماذج</a>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="مَرافئ عُمان، الرئيسية">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 42 42" fill="none"><path d="M5 29.5c5.3-5.3 10.7-5.3 16 0s10.7 5.3 16 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M8 21.5c4.3-4.3 8.7-4.3 13 0s8.7 4.3 13 0M12 13.5c3-3 6-3 9 0s6 3 9 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-name">مَرافئ <b>عُمان</b><small>استكشف على مهل</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="التنقل الرئيسي">
+        <a href="#listings">الاستراحات</a>
+        <a href="#about">عن التجربة</a>
+      </nav>
+      <a class="header-note" href="#demo-notice"><span aria-hidden="true">✳</span> عرض تجريبي</a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-art" src="assets/hero-oman.svg" alt="" aria-hidden="true">
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span></span> وجهات بطابع عُماني</p>
+          <h1 id="hero-title">هنا تبدأ<br>حكاية <em>الاستراحة.</em></h1>
+          <p class="hero-intro">من هدوء الجبل إلى نسيم الساحل، اكتشف أماكن تلهم رحلتك القادمة في عُمان.</p>
+          <a class="hero-link" href="#listings">اكتشف النماذج <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-caption"><span class="caption-line"></span> عُمان، حكاياتها لا تنتهي</div>
+        <div class="hero-index"><span>01</span> — 04</div>
+        <div class="hero-stamp" aria-hidden="true"><span>من الجبل</span><b>إلى البحر</b><span>عُمان تجمعنا</span></div>
+      </section>
+
+      <section class="notice-wrap" id="demo-notice" aria-label="تنبيه مهم">
+        <div class="demo-notice">
+          <span class="notice-icon" aria-hidden="true">i</span>
+          <p><strong>هذا الموقع عرض تجريبي فقط.</strong> جميع الاستراحات والأسعار والمعلومات المعروضة نماذج افتراضية، ولا يتم إرسال أو تأكيد أي حجز من هنا.</p>
+          <span class="demo-pill">نسخة تجريبية</span>
+        </div>
+      </section>
+
+      <section class="explore section-shell" id="listings" aria-labelledby="listings-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow eyebrow-dark"><span></span> أماكن تستحق الاكتشاف</p>
+            <h2 id="listings-title">استراحات <em>على ذوقك</em></h2>
+          </div>
+          <p class="section-aside">نماذج مستوحاة من تنوّع عُمان<br>— للاطلاع والتجربة فقط</p>
+        </div>
+
+        <form class="filters" id="filters" aria-label="تصفية نماذج الاستراحات">
+          <label class="filter-field">
+            <span class="filter-icon" aria-hidden="true">⌖</span>
+            <span class="filter-copy"><span>الموقع</span>
+              <select id="governorate" name="governorate">
+                <option value="">كل المحافظات</option>
+                <option value="مسقط">مسقط</option>
+                <option value="ظفار">ظفار</option>
+                <option value="الداخلية">الداخلية</option>
+                <option value="جنوب الشرقية">جنوب الشرقية</option>
+              </select>
+            </span>
+          </label>
+          <label class="filter-field">
+            <span class="filter-icon" aria-hidden="true">ر.ع</span>
+            <span class="filter-copy"><span>الميزانية لكل ليلة</span>
+              <select id="price" name="price">
+                <option value="">أي سعر تجريبي</option>
+                <option value="35">حتى ٣٥ ر.ع</option>
+                <option value="50">حتى ٥٠ ر.ع</option>
+                <option value="75">حتى ٧٥ ر.ع</option>
+              </select>
+            </span>
+          </label>
+          <label class="filter-field">
+            <span class="filter-icon" aria-hidden="true">♧</span>
+            <span class="filter-copy"><span>عدد الضيوف</span>
+              <select id="guests" name="guests">
+                <option value="">أي عدد</option>
+                <option value="4">٤ ضيوف أو أكثر</option>
+                <option value="6">٦ ضيوف أو أكثر</option>
+                <option value="8">٨ ضيوف أو أكثر</option>
+              </select>
+            </span>
+          </label>
+          <button class="filter-reset" type="reset" aria-label="مسح عوامل التصفية">مسح <span aria-hidden="true">↺</span></button>
+        </form>
+
+        <div class="results-bar">
+          <p id="results-count" aria-live="polite">٤ نماذج تجريبية</p>
+          <span><span class="tiny-dot"></span> الأسعار والمعلومات افتراضية</span>
+        </div>
+
+        <div class="listing-grid" id="listing-grid">
+          <article class="stay-card" data-governorate="الداخلية" data-price="65" data-guests="8">
+            <div class="card-image">
+              <img src="assets/jabal-akhdar.svg" alt="رسم توضيحي لبيوت جبلية بين مدرجات خضراء">
+              <span class="image-label">الجبل الأخضر · نموذج</span>
+              <span class="card-number">01</span>
+            </div>
+            <div class="card-body">
+              <p class="card-location"><span aria-hidden="true">⌖</span> الداخلية، الجبل الأخضر</p>
+              <h3>بيت السحاب</h3>
+              <p class="card-description">تصوّر لإقامة هادئة بين المدرجات الجبلية وأشجار الرمان.</p>
+              <div class="card-meta"><span>♧ حتى ٨ ضيوف</span><span>◇ إقامة جبلية</span></div>
+              <div class="card-footer"><p><b>٦٥</b> ر.ع <span>/ الليلة — سعر افتراضي</span></p><span class="demo-tag">نموذج</span></div>
+            </div>
+          </article>
+          <article class="stay-card" data-governorate="مسقط" data-price="45" data-guests="6">
+            <div class="card-image">
+              <img src="assets/muscat.svg" alt="رسم توضيحي لبيت أبيض ونخيل قرب خليج مسقط">
+              <span class="image-label">مسقط · نموذج</span>
+              <span class="card-number">02</span>
+            </div>
+            <div class="card-body">
+              <p class="card-location"><span aria-hidden="true">⌖</span> مسقط، يتي</p>
+              <h3>دار الموج</h3>
+              <p class="card-description">تصوّر لبيت ساحلي بنوافذ واسعة وإطلالة على الخليج.</p>
+              <div class="card-meta"><span>♧ حتى ٦ ضيوف</span><span>◇ إقامة ساحلية</span></div>
+              <div class="card-footer"><p><b>٤٥</b> ر.ع <span>/ الليلة — سعر افتراضي</span></p><span class="demo-tag">نموذج</span></div>
+            </div>
+          </article>
+          <article class="stay-card" data-governorate="ظفار" data-price="35" data-guests="4">
+            <div class="card-image">
+              <img src="assets/dhofar.svg" alt="رسم توضيحي لأكواخ بين أشجار خضراء في ظفار">
+              <span class="image-label">ظفار · نموذج</span>
+              <span class="card-number">03</span>
+            </div>
+            <div class="card-body">
+              <p class="card-location"><span aria-hidden="true">⌖</span> ظفار، صلالة</p>
+              <h3>ظل اللبان</h3>
+              <p class="card-description">تصوّر لاستراحة صغيرة تحيط بها الخضرة وأجواء الخريف.</p>
+              <div class="card-meta"><span>♧ حتى ٤ ضيوف</span><span>◇ إقامة طبيعية</span></div>
+              <div class="card-footer"><p><b>٣٥</b> ر.ع <span>/ الليلة — سعر افتراضي</span></p><span class="demo-tag">نموذج</span></div>
+            </div>
+          </article>
+          <article class="stay-card" data-governorate="جنوب الشرقية" data-price="50" data-guests="8">
+            <div class="card-image">
+              <img src="assets/sur.svg" alt="رسم توضيحي لبيت بلون الرمل وشاطئ هادئ قرب صور">
+              <span class="image-label">جنوب الشرقية · نموذج</span>
+              <span class="card-number">04</span>
+            </div>
+            <div class="card-body">
+              <p class="card-location"><span aria-hidden="true">⌖</span> جنوب الشرقية، صور</p>
+              <h3>سكون الساحل</h3>
+              <p class="card-description">تصوّر لبيت رحب يستلهم ألوان الرمل وهدوء الشاطئ.</p>
+              <div class="card-meta"><span>♧ حتى ٨ ضيوف</span><span>◇ إقامة ساحلية</span></div>
+              <div class="card-footer"><p><b>٥٠</b> ر.ع <span>/ الليلة — سعر افتراضي</span></p><span class="demo-tag">نموذج</span></div>
+            </div>
+          </article>
+        </div>
+        <p class="empty-state" id="empty-state" hidden>ما لقينا نموذجًا يطابق هذه الخيارات. جرّب تغيير عوامل التصفية.</p>
+      </section>
+
+      <section class="about-band" id="about">
+        <div class="about-inner">
+          <span class="about-spark" aria-hidden="true">✳</span>
+          <div>
+            <p class="eyebrow">فكرة بسيطة، بصورة أجمل</p>
+            <h2>عُمان من نافذة <em>الاستراحة.</em></h2>
+            <p>هذه واجهة أولية لاستكشاف شكل دليل للاستراحات العُمانية. الأسماء والصور والأسعار أمثلة توضيحية وليست عروضًا حقيقية.</p>
+          </div>
+          <a href="#demo-notice">اعرف عن النسخة التجريبية <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 42 42" fill="none"><path d="M5 29.5c5.3-5.3 10.7-5.3 16 0s10.7 5.3 16 0M8 21.5c4.3-4.3 8.7-4.3 13 0s8.7 4.3 13 0M12 13.5c3-3 6-3 9 0s6 3 9 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></span>
+        <span class="brand-name">مَرافئ <b>عُمان</b><small>استكشف على مهل</small></span>
+      </a>
+      <p>© ٢٠٢٦ مَرافئ عُمان <span>— موقع تجريبي، لا يقدّم حجوزات فعلية.</span></p>
+      <a class="back-top" href="#" aria-label="العودة إلى الأعلى">↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
