@@ -32,7 +32,7 @@ function updateListings() {
     if (matches) visibleCount += 1;
   }
 
-  count.textContent = `${numberFormat.format(visibleCount)} نماذج توضيحية`;
+  count.textContent = `${numberFormat.format(visibleCount)} استراحات`;
   emptyState.hidden = visibleCount > 0;
 }
 
@@ -43,7 +43,7 @@ function setRegion(region) {
     chip.classList.toggle("selected", selected);
     chip.setAttribute("aria-pressed", String(selected));
   }
-  setRegion(governorate.value);
+  updateListings();
 }
 
 function formatPrice(value) {
