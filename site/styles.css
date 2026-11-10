@@ -157,6 +157,12 @@ img { display: block; max-width: 100%; }
 .site-footer > p { margin: 0; color: #74857b; font-size: 9px; text-align: center; }
 .site-footer > p span { color: #9aa49c; }
 .back-top { width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid #d9e0d9; border-radius: 50%; color: var(--green); font-family: "DM Sans", sans-serif; }
+.image-credits { position: relative; flex: 0 0 auto; color: #74857b; font-size: 9px; }
+.image-credits summary { cursor: pointer; }
+.image-credits summary:hover { color: var(--green); }
+.image-credits ul { position: absolute; z-index: 8; right: 0; bottom: calc(100% + 12px); width: min(340px, calc(100vw - 32px)); display: grid; gap: 8px; margin: 0; padding: 14px 17px; border: 1px solid var(--line); border-radius: 13px; background: var(--paper); box-shadow: 0 12px 32px #173c3124; list-style: none; }
+.image-credits a { color: var(--ink-soft); line-height: 1.7; }
+.image-credits a:hover { text-decoration: underline; }
 
 .booking-dialog { width: min(510px, calc(100% - 28px)); max-width: none; max-height: min(90vh, 760px); padding: 0; overflow: auto; border: 1px solid #e8e3d8; border-radius: 24px; color: var(--ink); background: var(--paper); box-shadow: 0 28px 90px #0b2b2266; }
 .booking-dialog::backdrop { background: #102a23a8; backdrop-filter: blur(5px); }
@@ -298,6 +304,7 @@ img { display: block; max-width: 100%; }
   .footer-brand .brand-copy b { font-size: 11px; }
   .footer-brand .brand-copy small { font-size: 7px; }
   .site-footer > p { max-width: 165px; font-size: 8px; line-height: 1.7; }
+  .image-credits { font-size: 8px; }
   .back-top { width: 29px; height: 29px; }
   .dialog-shell { padding: 22px 18px; }
 }
