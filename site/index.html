@@ -217,8 +217,8 @@
           <div class="how-card">
             <span class="step-number">02</span><span class="step-icon" aria-hidden="true">◇</span>
             <h3>معاينة الدفع</h3>
-            <p>راجع ملخص التكلفة. لا تُطلب بيانات بطاقة ولا يتم خصم أي مبلغ.</p>
-            <span class="step-line"></span><span class="step-demo">لا يوجد خصم</span>
+            <p>راجع ملخص الإقامة والإجمالي قبل المتابعة.</p>
+            <span class="step-line"></span><span class="step-demo">معاينة الإجمالي</span>
           </div>
         </div>
       </section>
@@ -240,7 +240,7 @@
       <form class="dialog-shell" id="booking-form">
         <button class="dialog-close" type="button" aria-label="إغلاق" data-close>×</button>
         <div class="dialog-heading"><span class="dialog-brand" aria-hidden="true">و</span><div><p>وِجهة</p><h2 id="dialog-title">تفاصيل الإقامة</h2></div></div>
-        <div class="dialog-warning" id="dialog-warning"><strong>معاينة فقط</strong><span>لا يُرسل حجز، ولا تُجمع معلومات دفع، ولا يُخصم أي مبلغ.</span></div>
+        <div class="dialog-warning" id="dialog-warning"><strong>معاينة فقط</strong><span>لن يتم إنشاء حجز أو تنفيذ دفع فعلي.</span></div>
         <section class="booking-step" id="booking-step">
           <div class="selected-stay"><span class="selected-icon" aria-hidden="true">⌂</span><div><small>الإقامة المختارة</small><strong id="selected-stay">ملاذ الجبل الأخضر</strong></div><b><span id="nightly-price">٦٨</span> ر.ع<small> / ليلة</small></b></div>
           <div class="date-fields">
@@ -252,17 +252,17 @@
           <button class="dialog-primary" type="submit">متابعة لمعاينة الدفع <span aria-hidden="true">←</span></button>
         </section>
         <section class="payment-step" id="payment-step" hidden>
-          <div class="payment-heading"><span class="payment-shield" aria-hidden="true">◇</span><div><h3>معاينة الدفع</h3><p>بيئة تجريبية — لن يتم الاتصال بأي بنك أو بوابة دفع.</p></div></div>
-          <div class="mock-method"><span class="mock-card-icon" aria-hidden="true">▰</span><span><b>بطاقة تجريبية</b><small>لا حاجة لرقم بطاقة أو بيانات مصرفية</small></span><span class="mock-check" aria-hidden="true">✓</span></div>
-          <div class="mock-total"><span>إجمالي تقديري للمحاكاة</span><b><span id="payment-total">٦٨</span> ر.ع</b></div>
-          <button class="dialog-primary" id="simulate-payment" type="button">عرض معاينة الدفع <span aria-hidden="true">←</span></button>
+          <div class="payment-heading"><span class="payment-shield" aria-hidden="true">◇</span><div><h3>مراجعة الدفع</h3><p>معاينة فقط — لن يتم تنفيذ أي معاملة.</p></div></div>
+          <div class="mock-method"><span class="mock-card-icon" aria-hidden="true">▰</span><span><b>الدفع الإلكتروني</b><small>وسيلة الدفع غير مفعّلة</small></span><span class="mock-check" aria-hidden="true">✓</span></div>
+          <div class="mock-total"><span>إجمالي الإقامة</span><b><span id="payment-total">٦٨</span> ر.ع</b></div>
+          <button class="dialog-primary" id="simulate-payment" type="button">متابعة <span aria-hidden="true">←</span></button>
           <button class="dialog-back" type="button" id="back-to-booking">العودة لتفاصيل الإقامة</button>
         </section>
         <section class="result-step" id="result-step" hidden aria-live="polite">
           <span class="result-icon" aria-hidden="true">✓</span>
-          <h3>انتهت معاينة الدفع</h3>
-          <p><strong>هذه ليست عملية دفع.</strong> لم يتم إنشاء حجز، ولم تُرسل بيانات، ولم يُخصم أي مبلغ.</p>
-          <button class="dialog-primary" type="button" data-close>إغلاق المحاكاة</button>
+          <h3>اكتملت المعاينة</h3>
+          <p>لم يتم إنشاء حجز أو تنفيذ عملية دفع.</p>
+          <button class="dialog-primary" type="button" data-close>تم</button>
         </section>
       </form>
     </dialog>
